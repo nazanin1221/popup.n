@@ -1,0 +1,12 @@
+{
+  "name": "n-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "indexScss":"sass --watch index.scss index.css",
+    "Liveserver":"npx live-server index.html ",
+    "start":"npm run indexScss && npm run Liveserver"},
+
+  "license": "ISC",
+  "description": ""
+}

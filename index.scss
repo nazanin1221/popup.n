@@ -8,3 +8,12 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+.open-popup{
+    display: inline-block;
+    padding:20px 40px;
+    background-color:#B08330;
+    color:#fff;
+    text-decoration: none;/*Remove link underline*/
+    border-radius: 5px;
+    margin:20px;
+}

@@ -82,5 +82,20 @@ img {
     line-height: 1.5;
     margin: 0 0 25px 0;
 }
+.email {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.email input {
+    width: 290px;
+    padding: 12px;
+    margin-left:13px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ddd;
+    border-radius:5px;
+    font-size:14px;
+    box-sizing: border-box;
+}
 
 

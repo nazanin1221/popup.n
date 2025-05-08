@@ -36,14 +36,7 @@ body{
     /*display: none; The element is completely removed and takes up no space.*/
     opacity:1;
    }
-   .popup-content{
-    position: relative;
-    background-color: #fff;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 15px 45px rgba(0,0,0,0.3);
-}
-.popup-close{
+   .popup-close{
     position: absolute;
     top: 0;
     left: 0;
@@ -51,6 +44,14 @@ body{
     height: 100%;
     z-index:1;
 }
+   .popup-content{
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.3);
+}
+
 .container {
     box-sizing: border-box;
     width: 380px;

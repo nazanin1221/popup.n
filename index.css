@@ -21,6 +21,7 @@ body {
   background-color: #B08330;
   color: #fff;
   text-decoration: none;
+  /*Remove link underline*/
   border-radius: 5px;
   margin: 20px;
 }
@@ -43,12 +44,15 @@ body {
           align-items: center;
   opacity: 0;
   visibility: hidden;
+  /*The element becomes invisible but its space on the page remains.*/
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .popup-wrapper:target {
   visibility: visible;
+  /*Determines whether the element is displayed in CSS.*/
+  /*display: none; The element is completely removed and takes up no space.*/
   opacity: 1;
 }
 
@@ -67,16 +71,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  /*z-index:1;*/
+  pointer-events: none;
+  /*Prevents keys from getting stuck.*/
 }
 
-/*section{
-    display: flex;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #fff;
-    flex-direction: row;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);}*/
 .container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -136,6 +135,8 @@ img {
   font-size: 14px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .update {
@@ -149,6 +150,8 @@ img {
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .update:hover {

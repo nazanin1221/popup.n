@@ -50,11 +50,27 @@ body{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 15px 45px rgba(0,0,0,0.3);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.cross-close{
+    position: absolute;
+    top:0;
+    right:0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.cross-close img{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 8px;
 }
 
 .container {
     box-sizing: border-box;
-    width: 380px;
+    width: 460px;
     height: 520px;
     background-color: #fff;
     padding: 30px;
@@ -90,7 +106,7 @@ img {
 .email input {
     width: 290px;
     padding: 12px;
-    margin-left:13px;
+    margin-left:54px;
     border-width:1px;
     border-style:solid;
     border-color:#ddd;
